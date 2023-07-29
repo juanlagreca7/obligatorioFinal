@@ -1,0 +1,77 @@
+﻿@model IEnumerable<AppVitalSignMonitor.Models.Dispositivo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Creador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDispositivo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detalles)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaAlta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UltimaModificacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tokken)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Creador.IdUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paciente.IdUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDispositivo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Detalles)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaAlta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UltimaModificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tokken)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdDispositivo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdDispositivo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdDispositivo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

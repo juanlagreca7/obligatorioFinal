@@ -1,0 +1,49 @@
+﻿@model AppVitalSignMonitor.Models.Alarma
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Alarma</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdAlarma" />
+            <div class="form-group">
+                <label asp-for="ValorComparativo" class="control-label"></label>
+                <input asp-for="ValorComparativo" class="form-control" />
+                <span asp-validation-for="ValorComparativo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoAlarma" class="control-label"></label>
+                <select asp-for="TipoAlarma" class="form-control"></select>
+                <span asp-validation-for="TipoAlarma" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoComparacion" class="control-label"></label>
+                <select asp-for="TipoComparacion" class="form-control"></select>
+                <span asp-validation-for="TipoComparacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaCreacion" class="control-label"></label>
+                <input asp-for="FechaCreacion" class="form-control" />
+                <span asp-validation-for="FechaCreacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

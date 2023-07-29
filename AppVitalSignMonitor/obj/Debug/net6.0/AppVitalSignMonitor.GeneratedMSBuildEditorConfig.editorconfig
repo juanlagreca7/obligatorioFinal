@@ -1,0 +1,184 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppVitalSignMonitor
+build_property.RootNamespace = AppVitalSignMonitor
+build_property.ProjectDir = C:\Users\User\Desktop\Obligatorio Programación III y Base de Datos II\AppVitalSignMonitor\AppVitalSignMonitor\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Obligatorio Programación III y Base de Datos II\AppVitalSignMonitor\AppVitalSignMonitor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Administrador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Administrador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Administrador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Administrador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Administrador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Alarma/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxhcm1hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Alarma/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxhcm1hXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Alarma/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxhcm1hXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Alarma/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxhcm1hXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Alarma/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxhcm1hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Dispositivo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9zaXRpdm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Dispositivo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9zaXRpdm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Dispositivo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9zaXRpdm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Dispositivo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9zaXRpdm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Dispositivo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcG9zaXRpdm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Medico/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Medico/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Medico/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Medico/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Medico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Paciente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Paciente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Paciente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Paciente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Paciente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Reporte/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Reporte/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Reporte/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Reporte/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Reporte/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Obligatorio Programación III y Base de Datos II/AppVitalSignMonitor/AppVitalSignMonitor/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-er6ldyipp8

@@ -1,0 +1,69 @@
+﻿@model AppVitalSignMonitor.Models.Dispositivo
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Dispositivo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdDispositivo" />
+            <div class="form-group">
+                <label asp-for="CreadorId" class="control-label"></label>
+                <select asp-for="CreadorId" class="form-control" asp-items="ViewBag.CreadorId"></select>
+                <span asp-validation-for="CreadorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PacienteId" class="control-label"></label>
+                <select asp-for="PacienteId" class="form-control" asp-items="ViewBag.PacienteId"></select>
+                <span asp-validation-for="PacienteId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NombreDispositivo" class="control-label"></label>
+                <input asp-for="NombreDispositivo" class="form-control" />
+                <span asp-validation-for="NombreDispositivo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Detalles" class="control-label"></label>
+                <input asp-for="Detalles" class="form-control" />
+                <span asp-validation-for="Detalles" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaAlta" class="control-label"></label>
+                <input asp-for="FechaAlta" class="form-control" />
+                <span asp-validation-for="FechaAlta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UltimaModificacion" class="control-label"></label>
+                <input asp-for="UltimaModificacion" class="form-control" />
+                <span asp-validation-for="UltimaModificacion" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Estado" /> @Html.DisplayNameFor(model => model.Estado)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tokken" class="control-label"></label>
+                <input asp-for="Tokken" class="form-control" />
+                <span asp-validation-for="Tokken" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

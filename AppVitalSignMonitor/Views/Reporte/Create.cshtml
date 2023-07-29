@@ -1,0 +1,63 @@
+﻿@model AppVitalSignMonitor.Models.Reporte
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Reporte</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdDispositivo" class="control-label"></label>
+                <input asp-for="IdDispositivo" class="form-control" />
+                <span asp-validation-for="IdDispositivo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PresionDiastolica" class="control-label"></label>
+                <input asp-for="PresionDiastolica" class="form-control" />
+                <span asp-validation-for="PresionDiastolica" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PresionSistolica" class="control-label"></label>
+                <input asp-for="PresionSistolica" class="form-control" />
+                <span asp-validation-for="PresionSistolica" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SaturacionOxigeno" class="control-label"></label>
+                <input asp-for="SaturacionOxigeno" class="form-control" />
+                <span asp-validation-for="SaturacionOxigeno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Temperatura" class="control-label"></label>
+                <input asp-for="Temperatura" class="form-control" />
+                <span asp-validation-for="Temperatura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pulso" class="control-label"></label>
+                <input asp-for="Pulso" class="form-control" />
+                <span asp-validation-for="Pulso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraFecha" class="control-label"></label>
+                <input asp-for="HoraFecha" class="form-control" />
+                <span asp-validation-for="HoraFecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

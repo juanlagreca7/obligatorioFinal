@@ -1,0 +1,163 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using AppVitalSignMonitor;
+using AppVitalSignMonitor.Models;
+
+namespace AppVitalSignMonitor.Controllers
+{
+    public class AdministradorController : Controller
+    {
+        private readonly Context _context;
+
+        public AdministradorController(Context context)
+        {
+            _context = context;
+        }
+
+        // GET: Administrador
+        public async Task<IActionResult> Index()
+        {
+              return _context.Administrador != null ? 
+                          View(await _context.Administrador.ToListAsync()) :
+                          Problem("Entity set 'Context.Administrador'  is null.");
+        }
+
+        // GET: Administrador/Details/5
+        public async Task<IActionResult> Details(string id)
+        {
+            if (id == null || _context.Administrador == null)
+            {
+                return NotFound();
+            }
+
+            var administrador = await _context.Administrador
+                .FirstOrDefaultAsync(m => m.IdUsuario == id);
+            if (administrador == null)
+            {
+                return NotFound();
+            }
+
+            return View(administrador);
+        }
+
+        // GET: Administrador/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Administrador/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("IdUsuario,NombreUsuario,Email,Contrasena,Telefono,Direccion,Rol")] Administrador administrador)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(administrador);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(administrador);
+        }
+
+        // GET: Administrador/Edit/5
+        public async Task<IActionResult> Edit(string id)
+        {
+            if (id == null || _context.Administrador == null)
+            {
+                return NotFound();
+            }
+
+            var administrador = await _context.Administrador.FindAsync(id);
+            if (administrador == null)
+            {
+                return NotFound();
+            }
+            return View(administrador);
+        }
+
+        // POST: Administrador/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(string id, [Bind("IdUsuario,NombreUsuario,Email,Contrasena,Telefono,Direccion,Rol")] Administrador administrador)
+        {
+            if (id != administrador.IdUsuario)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(administrador);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!AdministradorExists(administrador.IdUsuario))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(administrador);
+        }
+
+        // GET: Administrador/Delete/5
+        public async Task<IActionResult> Delete(string id)
+        {
+            if (id == null || _context.Administrador == null)
+            {
+                return NotFound();
+            }
+
+            var administrador = await _context.Administrador
+                .FirstOrDefaultAsync(m => m.IdUsuario == id);
+            if (administrador == null)
+            {
+                return NotFound();
+            }
+
+            return View(administrador);
+        }
+
+        // POST: Administrador/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(string id)
+        {
+            if (_context.Administrador == null)
+            {
+                return Problem("Entity set 'Context.Administrador'  is null.");
+            }
+            var administrador = await _context.Administrador.FindAsync(id);
+            if (administrador != null)
+            {
+                _context.Administrador.Remove(administrador);
+            }
+            
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool AdministradorExists(string id)
+        {
+          return (_context.Administrador?.Any(e => e.IdUsuario == id)).GetValueOrDefault();
+        }
+    }
+}
